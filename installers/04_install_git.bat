@@ -14,4 +14,4 @@ start /wait "" "%INSTALLER_PATH%" /VERYSILENT
 
 echo Installation completed!
 
-pause
+timeout /t 30

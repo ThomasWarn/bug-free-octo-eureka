@@ -14,4 +14,4 @@ start /wait "" "%INSTALLER_PATH%" -s
 
 echo Installation completed!
 
-pause
+timeout /t 30

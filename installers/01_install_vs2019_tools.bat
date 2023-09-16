@@ -14,5 +14,4 @@ echo Installing Visual Studio with Desktop Development with C++...
 %INSTALLER_PATH% --add %WORKLOAD% --quiet --wait --norestart
 
 echo Installation completed!
-
-pause
+timeout /t 30

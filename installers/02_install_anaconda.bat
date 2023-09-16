@@ -14,4 +14,4 @@ start /wait "" "%INSTALLER_PATH%" /InstallationType=JustMe /AddToPath=1 /Registe
 
 echo Installation completed!
 
-pause
+timeout /t 30
