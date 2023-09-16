@@ -1,4 +1,10 @@
-timeout /t 100
+timeout /t 600
 :loop
-FOR /F %%x IN ('tasklist ^| find /C "cmd.exe"') DO IF %%x LEQ 1 shutdown /r /t 0 ELSE timeout /t 10
+FOR /F %%x IN ('tasklist ^| find /C "cmd.exe"') DO (
+    IF %%x LEQ 2 (
+        shutdown /r /t 10
+    ) ELSE (
+        timeout /t 100
+    )
+)
 GOTO loop

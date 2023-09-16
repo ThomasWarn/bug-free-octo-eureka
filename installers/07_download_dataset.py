@@ -1,4 +1,5 @@
 import requests
+from zipfile import ZipFile
 
 def download_file_from_google_drive(file_id, destination):
     URL = "https://docs.google.com/uc?export=download"
@@ -27,6 +28,15 @@ def save_response_content(response, destination):
         for chunk in response.iter_content(CHUNK_SIZE):
             if chunk:  # Filter out keep-alive chunks
                 f.write(chunk)
+    
+  
+    # loading the temp.zip and creating a zip object
+    with ZipFile(destination, 'r') as zObject:
+      
+        # Extracting all the members of the zip 
+        # into a specific location.
+        zObject.extractall(
+            path="Dataset")
 
 if __name__ == "__main__":
     file_id = "1OgcNKKKwjj4f2_vg8P_EJh-dnJigKPdR"
