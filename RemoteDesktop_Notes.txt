@@ -1,6 +1,13 @@
 Instance Type: g3s.xlarge for testing.
 Step 0. Launch instance & connect w/ remote desktop.
-Step 1. Copy over this folder (automatically?).
+
+Step 1.
+Paste this into cmd.
+
+curl --location --remote-header-name --remote-name https://raw.githubusercontent.com/ThomasWarn/bug-free-octo-eureka/main/installers/Download_and_run_installers.bat
+.\Download_and_run_installers.bat
+
+
 Step 1. Install dependencies, open a different cli for each installation.
 
 
