@@ -1,1 +1,2 @@
 start 07_download_dataset.bat
+start 08_download_gs.bat

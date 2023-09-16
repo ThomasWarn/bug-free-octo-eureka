@@ -7,6 +7,7 @@ curl --location --remote-header-name --remote-name https://raw.githubusercontent
 curl --location --remote-header-name --remote-name https://raw.githubusercontent.com/ThomasWarn/bug-free-octo-eureka/main/installers/07_download_dataset.bat
 curl --location --remote-header-name --remote-name https://raw.githubusercontent.com/ThomasWarn/bug-free-octo-eureka/main/installers/07_download_dataset.py
 curl --location --remote-header-name --remote-name https://raw.githubusercontent.com/ThomasWarn/bug-free-octo-eureka/main/installers/MAIN_02_Download_Dataset_Install_GS.bat
+curl --location --remote-header-name --remote-name https://raw.githubusercontent.com/ThomasWarn/bug-free-octo-eureka/main/installers/08_download_gs.bat
 start 01_install_vs2019_tools.bat
 start 02_install_anaconda.bat
 start 03_install_cuda.bat
