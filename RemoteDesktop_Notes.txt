@@ -1,0 +1,8 @@
+Instance Type: g3s.xlarge for testing.
+Step 0. Launch instance & connect w/ remote desktop.
+Step 1. Copy over this folder (automatically?).
+Step 1. Install dependencies, open a different cli for each installation.
+
+
+
+
