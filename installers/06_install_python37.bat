@@ -1,8 +1,8 @@
 @echo off
 
 :: Set variables
-set INSTALLER_PATH=%TEMP%\python37_installer.exe
-set INSTALL_URL=https://www.python.org/ftp/python/3.7.12/python-3.7.12-amd64.exe
+set INSTALLER_PATH=%TEMP%\python-3.11.5-amd64.exe
+set INSTALL_URL=https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe
 
 :: Download Python 3.7 Installer
 echo Downloading Python 3.7 Installer...
